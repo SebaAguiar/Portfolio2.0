@@ -97,12 +97,14 @@ export const Button1 = styled.button`
    &:hover {
       transition: all 0.5s ease-in-out;
       background-color: #d3d3d3;
-      border-color: #55B481; 
+      border-color: #55B481;
+      box-shadow: 0px 0px 10px 0px #fff;
+
    }
 
    &:active {
       background-color: #444;
-      box-shadow: 0px 0px 0px 0px #232323;
+      box-shadow: 0px 0px 10px 0px #55B481;
    }
 `
 

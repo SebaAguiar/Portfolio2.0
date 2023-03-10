@@ -36,3 +36,9 @@ export const infoStyle1 = {
    margin: '0',
    fontSize: "1.3em",
 }
+
+export const companyStyle = {
+   margin: '0',
+   padding: '0',
+   color: '#fff',
+}
