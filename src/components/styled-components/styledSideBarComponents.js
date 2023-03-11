@@ -24,25 +24,22 @@ export const Job2 = styled.h3`
 export const StyledSideContainer = styled.div`
       display: flex;
       flex-direction: row;
-      heigth: 100vh;
+      height: 100vh;
       width: 30vw;
 `
 
 export const SideContainer = styled.div`
-   flex-position: flex-start;
    display: flex;
    flex-direction: column;
-   heigth: 100vh;
+   height: 100vh;
    width: 15%;
    background-color: #232323;
-   align-content: ;
    justify-content: flex-start;
 `
 
 export const MiddleContainer = styled.div`
-   flex-position: flex-end;
    display: flex;
-   heigth: 100vh;
+   height: 100vh;
    width: 85%;
    flex-direction: column;
    align-items: center;
@@ -56,14 +53,18 @@ export const Image = styled.div`
    width: 55%;
    padding-top: calc(55% / 1);
    margin-top: 20%;
-   background-color: #D9D9D9;
+   background-color: #d9d9d9;
    box-shadow: 5px 1px 70px 5px #232323;
-
+   &:hover {
+      transition: all 0.3s;
+      box-shadow: 0px 0px 10px 0px #fff;
+      border: 3px solid #55B481;
+   }
 `;
 
 export const SocialDiv = styled.div`
    display: flex;
-   heigth: 40px;
+   height: 40px;
    width: 60%;
    margin-top: 40px;
    margin-bottom: 10px;
@@ -88,7 +89,7 @@ export const PagesDiv = styled.div`
 
 export const Button1 = styled.button`
    margin: 80px;
-   border: 3px solid #fff;
+   border: 3px solid #d3d3d3;
    border-radius: 25px;
    background-color: #444;
    padding: 5px 40px;
@@ -99,7 +100,6 @@ export const Button1 = styled.button`
       background-color: #d3d3d3;
       border-color: #55B481;
       box-shadow: 0px 0px 10px 0px #fff;
-
    }
 
    &:active {
@@ -127,7 +127,6 @@ export const StyledLi = styled.li`
    border: 1px solid;
    padding: 30% 0%;
    justify-content: center;
-
    &:hover {
       transition: all 1s ease-in-out;
       background-color: #444;
@@ -152,21 +151,19 @@ export const SideImg = styled.img`
 
 
 export const SideA = styled.a`
-      margin: 0;
-      display: flex;
-      height: 65px;
-      width: 100%;
-      justify-content: center;
-      align-content: center;
-      border-bottom: 2px solid #444;
-      
-      &:hover {
-         transition:  all 0.5s ease-in-out;
-         background-color: #444; 
-      }
-
-      &:active {
-         transition: all 0.5s ease-in-out;
-         background-color: #55B481; 
-      }
+   margin: 0;
+   display: flex;
+   height: 65px;
+   width: 100%;
+   justify-content: center;
+   align-content: center;
+   border-bottom: 2px solid #444;   
+   &:hover {
+      transition:  all 0.5s ease-in-out;
+      background-color: #444; 
+   }
+   &:active {
+      transition: all 0.5s ease-in-out;
+      background-color: #55B481; 
+   }
 `

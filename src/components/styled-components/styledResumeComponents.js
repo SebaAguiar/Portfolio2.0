@@ -8,6 +8,7 @@ export const StyledResumeContainer = styled.div`
    flex-direction: column;
    height: 100vh;
    width: 70vw;
+   align-items: flex-start;
    overflow: scroll;
    background-color: #232323;
 `
@@ -26,9 +27,9 @@ export const DataContainer = styled.div`
 
   &::before {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 25%;
+    left: 25.1%;
     height: 121%;
     width: 2px;
     background-color: #fff;
@@ -46,7 +47,6 @@ export const DataContainer = styled.div`
     border-radius: 50%;
     transform: translateY(-50%);
     box-shadow: 0px 0px 15px 0px #55B481;
-
   }
 `
 
@@ -76,6 +76,45 @@ export const TecnologiesContainer = styled.div`
    justify-content: space-evenly;
    flex-wrap: wrap;
 `
+
+export const CertificateContainer = styled.div`
+   margin: 0;
+   padding: 0;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+`
+
+export const CardContainer = styled.div`
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+`
+
+export const CertCard = styled.div`
+   margin: 20px;
+   padding: 0;
+   width: 60%;
+   height: 140px;
+   border: 1px solid #d3d3d3;
+   border-radius: 20px;
+   display: flex; 
+   /* height: 60px; */
+   background-color: #444;
+`
+
+export const CertNameContainer = styled.div`
+   margin: 1% 0 0 2%;
+   width: 100%;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+` 
 
 // ? H
 
@@ -109,6 +148,14 @@ export const Title3 = styled.h1`
    color: #fff;
 `
 
+export const Title4 = styled.h4`
+   font-size: 1.2em;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   color: #fff;
+`
+
 
 
 
@@ -117,7 +164,7 @@ export const Title3 = styled.h1`
 
 export const DateText = styled.p`
    margin: 0;
-   paddin: 0;
+   padding: 0;
    font-size: 1em;
    font-weight: bold;
    color: #fff;
@@ -127,13 +174,13 @@ export const Position = styled.p`
    margin: 0;
    padding: 0;
    font-size: 1em;
-   font-weigth: bold;
+   font-weight: bold;
    color: #fff;
 `
 
 export const PositionDescription = styled.p`
    margin: 0;
-   paddin: 0;
+   padding: 0;
    font-size: 1em;
    color: #fff;
 `
@@ -145,4 +192,14 @@ export const TecnologiesImage = styled.img`
    padding: 0;
    height: 70px;
    width: 70px;
+`
+
+export const CertImg = styled.img`
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 40%;
+   border-right: 1px solid #d3d3d3;
+   border-radius: 20px 0 0 20px;
+   background-color: #fff;
 `
