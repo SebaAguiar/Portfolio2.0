@@ -67,13 +67,15 @@ export const DateContainer = styled.div`
    width: 30%;
    
 `
-// export const DescriptionContainer = styled.div`
-//    display: flex;
-//    flex-direction: column;
-//    width: 70%;
-//    padding-left: 20px;
-//    border-left: 2px solid #55B481;
-// `
+
+export const TecnologiesContainer = styled.div`
+   margin: 3%;
+   padding: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+`
 
 // ? H
 
@@ -134,4 +136,13 @@ export const PositionDescription = styled.p`
    paddin: 0;
    font-size: 1em;
    color: #fff;
+`
+
+// ? IMG
+
+export const TecnologiesImage = styled.img`
+   margin: 2% 1%;
+   padding: 0;
+   height: 70px;
+   width: 70px;
 `
