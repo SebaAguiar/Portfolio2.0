@@ -42,3 +42,7 @@ export const companyStyle = {
    padding: '0',
    color: '#fff',
 }
+
+export const lastNameStyle = {
+   color: '#55B481',
+}

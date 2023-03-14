@@ -3,6 +3,7 @@ import { ResumeH1, StyledResumeContainer } from '../../components/styled-compone
 import WorkExperience from './WorkExperience'
 import StudiesFormation from './Studies-Formation'
 import CodingSkills from './CodingSkills'
+import Certificates from './Certificates'
 
 const Resume = () => {
   return (
@@ -12,6 +13,7 @@ const Resume = () => {
         <WorkExperience />
         <StudiesFormation />
         <CodingSkills />
+        <Certificates /> 
       </StyledResumeContainer>
     </>
   )

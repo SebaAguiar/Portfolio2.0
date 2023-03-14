@@ -17,25 +17,18 @@ import vscode from '../../assets/visualstudiocode-svgrepo-com.svg'
 import sublime from '../../assets/sublimetext-svgrepo-com.svg'
 
 const CodingSkills = () => {
+
+  const tec = [js, ts, mongo, postgres, nestjs, react, redux, stCompoents, html, css, postman, vscode, sublime, github, git]
+
   return (
     <>
       <Title3>Coding <span style={{color: "#55B481"}}>Skills</span></Title3>
       <TecnologiesContainer>
-        <TecnologiesImage src={js} alt='JavaScript' />
-        <TecnologiesImage src={ts} alt='TypeScript' />
-        <TecnologiesImage src={mongo} alt='MongoDB' />
-        <TecnologiesImage src={postgres} alt='PostgreSQL' />
-        <TecnologiesImage src={nestjs} alt='NestJS' />
-        <TecnologiesImage src={react} alt='ReactJS' />
-        <TecnologiesImage src={redux} alt='ReduxJS' />
-        <TecnologiesImage src={stCompoents} alt='Stiled-Components' />
-        <TecnologiesImage src={html} alt='HTML5' />
-        <TecnologiesImage src={css} alt='CSS3' />
-        <TecnologiesImage src={postman} alt='Postman' />
-        <TecnologiesImage src={vscode} alt='Visual-Studio code' />
-        <TecnologiesImage src={sublime} alt='Sublime-Text' />
-        <TecnologiesImage src={github} alt='GitHub' />
-        <TecnologiesImage src={git} alt='Git' />
+          {
+            tec.map(e => (
+              <TecnologiesImage src={e} alt={e} />
+            ))
+          }
       </TecnologiesContainer>
     </>
   )
