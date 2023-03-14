@@ -14,8 +14,23 @@ const Certificates = () => {
                         <DateText style={{fontWeight: 'normal'}}>date</DateText>
                         <DateText style={{fontWeight: 'normal'}}>Empresa Emisora</DateText>
                     </CertNameContainer> 
+                </CertCard>   
+                <CertCard>
+                    <CertImg />
+                    <CertNameContainer>
+                        <Title4>Certificate</Title4>
+                        <DateText style={{fontWeight: 'normal'}}>date</DateText>
+                        <DateText style={{fontWeight: 'normal'}}>Empresa Emisora</DateText>
+                    </CertNameContainer> 
                 </CertCard>
-                
+                <CertCard>
+                    <CertImg />
+                    <CertNameContainer>
+                        <Title4>Certificate</Title4>
+                        <DateText style={{fontWeight: 'normal'}}>date</DateText>
+                        <DateText style={{fontWeight: 'normal'}}>Empresa Emisora</DateText>
+                    </CertNameContainer> 
+                </CertCard>       
             </CardContainer>
         </CertificateContainer>
     </>

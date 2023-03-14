@@ -80,7 +80,7 @@ export const TecnologiesContainer = styled.div`
 export const CertificateContainer = styled.div`
    margin: 0;
    padding: 0;
-   width: 90%;
+   width: 100%;
    display: flex;
    flex-direction: column;
 `
@@ -91,13 +91,14 @@ export const CardContainer = styled.div`
    width: 100%;
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-evenly;
 `
 
 export const CertCard = styled.div`
    margin: 20px;
    padding: 0;
-   width: 60%;
+   width: 40%;
    height: 140px;
    border: 1px solid #d3d3d3;
    border-radius: 20px;
